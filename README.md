@@ -31,8 +31,8 @@ This is kept **free** due to the open-source nature of our curriculum. Each topi
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/username/curriculum.git
-   cd curriculum```
+   git clone https://github.com/username/codewise-curriculum.git
+   cd codewise-curriculum```
 
 2. **Explore the Files**
 Navigate through the folders to find relevant materials:
