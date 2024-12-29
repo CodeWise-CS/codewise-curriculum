@@ -4,7 +4,7 @@ Welcome to the **CodeWise** curriculum repository! This repository hosts the lea
 
 ## 🎯 **About CodeWise**
 
-CodeWise is a platform dedicated to empowering learners with accessible and comprehensive coding education. Whether you're a beginner starting from scratch or a professional looking to upskill, CodeWise offers curated content tailored to your learning goals.
+CodeWise is a platform dedicated to empowering learners with accessible and comprehensive coding education. Whether you're a beginner starting from scratch or a professional looking to upskill, CodeWise offers content tailored to your learning goals.
 
 This is kept **free** due to the open-source nature of our curriculum. Each topic in a course consists of various tutorial options, code compilation, and quizzes.
 
