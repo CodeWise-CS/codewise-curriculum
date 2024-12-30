@@ -45,21 +45,21 @@ Navigate through the folders to find relevant materials:
 Create a new `.js` file in the appropriate directory and put all the necessary information.
 
 Course lesson format (consisting of a lesson and exercise):
-```
+```js
 [
   {
-    "lessonName": [lesson's name],
+    "lessonName": /* lesson's name */,
     "type": "lesson",
     "videos": [
       {
-        "name": [video name],
-        "channel": [channel],
-        "length": [video length formatted as MM:SS],
-        "id": [YouTube video ID (e.g., "x7X9w_GIm1s" for https://www.youtube.com/watch?v=**x7X9w_GIm1s**)],
-        "startSeconds": [seconds at which the video should start (null if N/A)],
-        "endSeconds": [seconds at which the video should end (null if N/A)]
+        "name": /* video name */,
+        "channel": /* channel */,
+        "length": /* video length formatted as MM:SS */,
+        "id": /* YouTube video ID (e.g., "x7X9w_GIm1s" for https://www.youtube.com/watch?v=**x7X9w_GIm1s**) */,
+        "startSeconds": /* seconds at which the video should start (null if N/A) */,
+        "endSeconds": /* seconds at which the video should end (null if N/A) */
       },
-      ... [other video options. 1st video in array should be the "recommended" video]
+      ... /* other video options. 1st video in array should be the "recommended" video */
     ]
   },
   {
@@ -68,41 +68,41 @@ Course lesson format (consisting of a lesson and exercise):
     "questions": [
       {
         "type": "fill_in",
-        "question": [question],
-        "text": [answer text with blanks surrounded by "<@>" (e.g., "for i in <@>range<@>(12)")]
+        "question": /* question */,
+        "text": /* answer text with blanks surrounded by "<@>" (e.g., "for i in <@>range<@>(12)") */
       },
       {
         "type": "multiple_choice",
-        "question": [question],
+        "question": /* question */,
         "answers": [
         {
-          "answer": [correct answer option],
+          "answer": /* correct answer option */,
           "correct": true
         },
         {
-          "answer": [incorrect answer option],
+          "answer": /* incorrect answer option */,
           "correct": false
         },
         {
-          "answer": [incorrect answer option],
+          "answer": /* incorrect answer option */,
           "correct": false
         },
         {
-          "answer": [incorrect answer option],
+          "answer": /* incorrect answer option */,
           "correct": false
       },
-      ... [any combination of question types]
+      /* ... any combination of question types */
     ]
   },
 ]
 ```
 
 Career path format:
-```
+``` js
 {
-  [course name (e.g., "frontend-engineer")]: {
-    "title": [course title (e.g., "Front-end Engineer")],
-    "courses": [array of courses (e.g., "html-css", "javascript", "react", ...)]
+   /* course name (e.g., "frontend-engineer") */: {
+    "title": /* course title (e.g., "Front-end Engineer") */,
+    "courses": /* array of courses (e.g., "html-css", "javascript", "react", ...) */
   }
 }
 ```
@@ -113,9 +113,7 @@ We welcome contributions from the community! If you have ideas for new materials
 
 ## 📧 **Contact**
 
-For questions or support, reach out to the CodeWise team:
-
-Email: iacopo.schianchi@gmail.com
+For questions or support, reach out to: iacopo.schianchi@gmail.com
 
 ## 🌟 **License**
 This project is licensed under the MIT License. Feel free to use and adapt the materials as needed.
