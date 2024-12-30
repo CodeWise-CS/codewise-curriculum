@@ -1,0 +1,105 @@
+[
+  {
+    "lessonName": "Introduction to Python",
+    "type": "lesson",
+    "videos": [
+      {
+        "name": "Python in 100 seconds",
+        "channel": "Fireship",
+        "length": "0:50",
+        "id": "x7X9w_GIm1s",
+        "startSeconds": null,
+        "endSeconds": 50
+      },
+      {
+        "name": "What is Python? Why Python is So Popular?",
+        "channel": "Programming with Mosh",
+        "length": "4:06",
+        "id": "Y8Tko2YC5hA",
+        "startSeconds": null,
+        "endSeconds": null
+      },
+      {
+        "name": "Python Tutorial for Beginners 1 - Introduction to Python (For Absolute Beginners)",
+        "channel": "ProgrammingKnowledge",
+        "length": "8:22",
+        "id": "mpnBNGOSplA",
+        "startSeconds": null,
+        "endSeconds": null
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "lessonName": "Introduction to Python - Exercise",
+    "type": "exercise",
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "question": "What is Python NOT primarily used for?",
+        "answers": [
+          {
+            "answer": "Embedded systems",
+            "correct": true
+          },
+          {
+            "answer": "Web applications",
+            "correct": false
+          },
+          {
+            "answer": "Data analysis",
+            "correct": false
+          },
+          {
+            "answer": "Machine learning",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following is a key feature of Python?",
+        "answers": [
+          {
+            "answer": "Easy-to-read syntax",
+            "correct": true
+          },
+          {
+            "answer": "High performance for computational tasks",
+            "correct": false
+          },
+          {
+            "answer": "Statically typed variables",
+            "correct": false
+          },
+          {
+            "answer": "Low-level memory management",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which type of language is Python",
+        "answers": [
+          {
+            "answer": "Interpreted",
+            "correct": true
+          },
+          {
+            "answer": "Compiled",
+            "correct": false
+          },
+          {
+            "answer": "Machine",
+            "correct": false
+          },
+          {
+            "answer": "All of the above",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+]
