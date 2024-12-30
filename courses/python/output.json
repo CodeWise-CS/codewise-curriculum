@@ -1,0 +1,116 @@
+[
+  {
+    "lessonName": "Output With \"print\"",
+    "type": "lesson",
+    "videos": [
+      {
+        "name": "Python 3 Tutorial: Print Function and Strings",
+        "id": "UsCQXe1OHZk",
+        "channel": "sentdex",
+        "length": "5:24",
+        "startSeconds": null,
+        "endSeconds": 324
+      },
+      {
+        "name": "Getting Started With Python (Printing + Exercise) - Learn Python Basics 1",
+        "channel": "JCode",
+        "length": "4:25",
+        "id": "C32EzXbYY2g",
+        "startSeconds": 108,
+        "endSeconds": null
+      }
+    ],
+    "exercises": [
+      {
+        "title": "Greet John Doe",
+        "content": "Write a program that greets a user named John Doe with the message \"Hello, John Doe!\"\n\nThen, try greeting yourself by changing the name."
+      },
+      {
+        "title": "Asterisk Triangle",
+        "content": "Print a triangle of * characters with a base of 5 like this one:\n\n    *\n  * * *\n* * * * *\n\n"
+      }
+    ]
+  },
+  {
+    "lessonName": "Output with \"print\" - Quiz",
+    "type": "exercise",
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "question": "What is the print function most often used for?",
+        "answers": [
+          {
+            "answer": "Debugging code",
+            "correct": true
+          },
+          {
+            "answer": "UI in web apps",
+            "correct": false
+          },
+          {
+            "answer": "Printing a PDF",
+            "correct": false
+          },
+          {
+            "answer": "Reading user input",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "fill_in",
+        "question": "Complete the code to print the following output (using double quotes):\n\nHello, World!",
+        "text": "<@>print<@>(<@>\"Hello, World!\"<@>)"
+      },
+      {
+        "type": "fill_in",
+        "question": "Fix this code for printing the message\"Hi, John!\":\n\nprint(Hi, John!)",
+        "text": "<@>print(\"Hi, John!\")<@>"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following is a correct way to use the print() function in Python?",
+        "answers": [
+          {
+            "answer": "print('Hello, World!')",
+            "correct": true
+          },
+          {
+            "answer": "print(Hello, World!)",
+            "correct": false
+          },
+          {
+            "answer": "print{Hello, World!}",
+            "correct": false
+          },
+          {
+            "answer": "echo('Hello, World!')",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following would result in an error",
+        "answers": [
+          {
+            "answer": "print('Hello, World!')",
+            "correct": false
+          },
+          {
+            "answer": "print(\"Hello, World!\")",
+            "correct": false
+          },
+          {
+            "answer": "print(Hello, World!)",
+            "correct": true
+          },
+          {
+            "answer": "print()",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+]
