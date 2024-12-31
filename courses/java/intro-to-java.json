@@ -1,0 +1,128 @@
+[
+  {
+    "lessonName": "Introduction to Java",
+    "type": "lesson",
+    "videos": [
+      {
+        "name": "Java in 100 seconds",
+        "channel": "Fireship",
+        "length": "1:06",
+        "id": "l9AzO1FMgM8",
+        "startSeconds": null,
+        "endSeconds": 66
+      },
+      {
+        "name": "#1 Java Introduction",
+        "channel": "ProgrammingKnowledge",
+        "length": "4:12",
+        "id": "bm0OyhwFDuY",
+        "startSeconds": 44,
+        "endSeconds": null
+      }
+    ]
+  },
+  {
+    "lessonName": "Introduction to Java - Quiz",
+    "type": "exercise",
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "question": "What is a major benefit of Java?",
+        "answers": [
+          {
+            "answer": "It can run on any platform",
+            "correct": true
+          },
+          {
+            "answer": "It's simple and easy-to-read syntax",
+            "correct": false
+          },
+          {
+            "answer": "It has very fast compilation speed",
+            "correct": false
+          },
+          {
+            "answer": "It has extensive built-in libraries for machine learning",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "fill_in",
+        "question": "Complete the name of the Java technology that allows it to run on various operating systems. (capitalize the remaining part)",
+        "text": "Java Virtual <@>Machine<@>"
+      },
+      {
+        "type": "fill_in",
+        "question": "Complete Java's slogan (in lowercase letters)",
+        "text": "Write <@>once<@>, run <@>anywhere<@>"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who designed Java?",
+        "answers": [
+          {
+            "answer": "James Gosling",
+            "correct": true
+          },
+          {
+            "answer": "Bjarne Stroustrup",
+            "correct": false
+          },
+          {
+            "answer": "Guido van Rossum",
+            "correct": false
+          },
+          {
+            "answer": "Dennis Ritchie",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Why can Java run on any platform?",
+        "answers": [
+          {
+            "answer": "It compiles to bytecode",
+            "correct": true
+          },
+          {
+            "answer": "It's an interpreted language",
+            "correct": false
+          },
+          {
+            "answer": "It uses a universal compiler",
+            "correct": false
+          },
+          {
+            "answer": "It's a high-level language",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which is not a common use of Java?",
+        "answers": [
+          {
+            "answer": "High-performance game development",
+            "correct": true
+          },
+          {
+            "answer": "Enterprise web apps",
+            "correct": false
+          },
+          {
+            "answer": "Mobile apps",
+            "correct": false
+          },
+          {
+            "answer": "None of the above",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+]
