@@ -1,0 +1,119 @@
+[
+  {
+    "lessonName": "Output in Java",
+    "type": "lesson",
+    "videos": [
+      {
+        "name": "Introduction to Print Statements in Java | Print Text in Java",
+        "channel": "Thomas Jedallah",
+        "length": "1:46",
+        "id": "t_sKbkJaFso",
+        "startSeconds": 22,
+        "endSeconds": 128
+      },
+      {
+        "name": "How to use System.out.println(); Java Tutorial - Print vs Println",
+        "channel": "Gav Ridgeway",
+        "length": "4:44",
+        "id": "XbjcAEuwsI8",
+        "startSeconds": null,
+        "endSeconds": 284
+      },
+      {
+        "name": "Using print & println to display strings on the in Java",
+        "channel": "Logic Lambda",
+        "length": "4:37",
+        "id": "XbjcAEuwsI8",
+        "startSeconds": null,
+        "endSeconds": null
+      }
+    ],
+    "exercises": [
+      {
+        "title": "Print, not println",
+        "content": "Write a program that outputs the text \"I like print, not prinln.\" only using print statements for each word."
+      },
+      {
+        "title": "Stick man",
+        "content": "Write a program that outputs a stick man as the one shown:\n\n O \n/|\\\n/ \\"
+      }
+    ]
+  },
+  {
+    "lessonName": "Output in Java - Quiz",
+    "type": "exercise",
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following can be used to output text in Java?",
+        "answers": [
+          {
+            "answer": "System.out.println();",
+            "correct": true
+          },
+          {
+            "answer": "System.println();",
+            "correct": false
+          },
+          {
+            "answer": "System.output.prinln();",
+            "correct": false
+          },
+          {
+            "answer": "System.output.text();",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "fill_in",
+        "question": "Complete the code to output this:\n\nJava is so great!\nI can print text!",
+        "text": "<@>System.out.print<@>(\"Java is \");\n<@>System.out.print<@>(<@>\"so great!\"<@>);\n<@>System.out.prinln<@>(\"I can print text!\")"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following would result in an error?",
+        "answers": [
+          {
+            "answer": "system.out.println(\"Hello world!\")",
+            "correct": true
+          },
+          {
+            "answer": "System.out.println(\"Hello world!\")",
+            "correct": false
+          },
+          {
+            "answer": "System.out.print(\"Hello world!\")",
+            "correct": false
+          },
+          {
+            "answer": "System.out.prinln()",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the difference between pring and println?",
+        "answers": [
+          {
+            "answer": "System.out.println() prints the text on a new line, while System.out.print() does not.",
+            "correct": true
+          },
+          {
+            "answer": "System.out.print() prints the text on a new line, while System.out.println() does not.",
+            "correct": false
+          },
+          {
+            "answer": "System.out.println() is for printing long pieces of text, while System.out.print() is for shorter text.",
+            "correct": false
+          },
+          {
+            "answer": "They do the same thing but have different names.",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+]
