@@ -42,7 +42,9 @@ Navigate through the folders to find relevant materials:
 2. `career-paths/`
 
 3. **Contribute to CodeWise**
-Create a new `.js` file in the appropriate directory and put all the necessary information.
+Create a new `.json` file in the appropriate directory and put all the necessary information.
+
+The planned curriculum is listed in the courses' `curriculum.md` file. It organizes the topics that will be covered and their order (lessons that have not been created may be listed here).
 
 Course lesson format (consisting of a lesson and exercise):
 ```js
