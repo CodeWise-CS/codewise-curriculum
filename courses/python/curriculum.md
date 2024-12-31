@@ -1,0 +1,47 @@
+### Python curriculum
+
+- [x] Introduction to Python
+- [x] Printing text
+- [ ] Variables
+- [ ] Primitive data types (integers, floats, strings, and booleans)
+- [ ] Receiving input
+- [ ] Type conversions
+- [ ] Strings and string methods
+- [ ] Formatted strings
+- [ ] Math operations
+- [ ] If statements
+- [ ] Logical operators (and, or, not)
+- [ ] Comparison operators (<, <=, >, >=, ==)
+- [ ] Loops (while & for)
+- [ ] Nesting loops
+- [ ] Lists and list methods
+- [ ] Tuples
+- [ ] Unpacking lists/tuples
+- [ ] Dictionaries and dictionary methods
+- [ ] Functions
+- [ ] Error handling
+- [ ] Classes
+- [ ] Constructors
+- [ ] Inheritance
+- [ ] Abstract classes
+- [ ] Modules/packages
+- [ ] Standard libraries (math, random, and datetime)
+- [ ] Reading/writing `txt` files
+- [ ] Working with `csv` files
+- [ ] Lambda functions
+- [ ] `map`, `filter`, and `reduce`
+- [ ] Recursion
+- [ ] Generators
+- [ ] Decorators
+- [ ] Iterators
+- [ ] Stacks and queues
+- [ ] Regular expressions
+- [ ] Operator overloading: `add` & `sub`
+- [ ] Operator overloading: `mul` & `truediv`
+- [ ] Operator overloading: `eq` & `lt/gt`
+- [ ] Polymorphism
+- [ ] Decorators
+- [ ] Unit tests with `unittest`
+- [ ] API requests with `urllib`
+- [ ] Working with `json` files
+- [ ] Asynchronous code with `asyncio`
