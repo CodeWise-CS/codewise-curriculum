@@ -1,0 +1,131 @@
+[
+  {
+    "lessonName": "Introduction to HTML/CSS/JS",
+    "type": "lesson",
+    "videos": [
+      {
+        "name": "HTML, CSS, JavaScript Explained [in 4 minutes for beginners]",
+        "channel": "Danielle Thé",
+        "length": "3:57",
+        "id": "gT0Lh1eYk78",
+        "startSeconds": null,
+        "endSeconds": null
+      },
+      {
+        "name": "What is HTML, CSS, and JavaScript?",
+        "channel": "Tiff in Tech",
+        "length": "6:50",
+        "id": "DHGhFJZLKMs",
+        "startSeconds": null,
+        "endSeconds": null
+      },
+      {
+        "name": "HTML in 100 Seconds",
+        "channel": "Fireship",
+        "length": "1:07",
+        "id": "ok-plXXHlWw",
+        "startSeconds": null,
+        "endSeconds": 67
+      },
+      {
+        "name": "CSS in 100 Seconds",
+        "channel": "Fireship",
+        "length": "1:10",
+        "id": "OEV8gMkCHXQ",
+        "startSeconds": null,
+        "endSeconds": 70
+      },
+      {
+        "name": "JavaScript in 100 Seconds",
+        "channel": "Fireship",
+        "length": "56",
+        "id": "DHjqpvDnNGE",
+        "startSeconds": null,
+        "endSeconds": 56
+      },
+    ],
+    "exercises": []
+  },
+  {
+    "lessonName": "Introduction to HTML/CSS/JS - Quiz",
+    "type": "exercise",
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "question": "What is HTML mostly used for",
+        "answers": [
+          {
+            "answer": "Creating the structure of a webpage",
+            "correct": true
+          },
+          {
+            "answer": "Making a website look good",
+            "correct": false
+          },
+          {
+            "answer": "Adding functionality to a website",
+            "correct": false
+          },
+          {
+            "answer": "Developing the entire website",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "fill_in",
+        "question": "What does HTML stand for?",
+        "text": "Hypertext <@>Markup<@> Language"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the purpose of CSS?",
+        "answers": [
+          {
+            "answer": "Making a website look good",
+            "correct": true
+          },
+          {
+            "answer": "Creating the structure of a webpage",
+            "correct": false
+          },
+          {
+            "answer": "Adding functionality to a website",
+            "correct": false
+          },
+          {
+            "answer": "Developing the entire website",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "fill_in",
+        "question": "What does CSS stand for?",
+        "text": "<@>Cascading<@> Style Sheets"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the purpose of JavaScript?",
+        "answers": [
+          {
+            "answer": "Adding functionality to a website",
+            "correct": true
+          },
+          {
+            "answer": "Creating the structure of a webpage",
+            "correct": false
+          },
+          {
+            "answer": "Making a website look good",
+            "correct": false
+          },
+          {
+            "answer": "Developing the entire website",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+]
