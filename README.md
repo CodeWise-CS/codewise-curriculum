@@ -10,15 +10,15 @@ This is kept **free** due to the open-source nature of our curriculum. Each topi
 
 ## 📚 **Contents**
 
-### 3. **Courses**
+### 1. **Courses**
    - **Overview**: Structured courses, each consisting of multiple modules with videos, exercises, and quizzes.
    - **Location** `courses/[course name]` folder
 
-### 1. **Videos**
+### 2. **Videos**
    - **Overview**: Engaging and instructional video content covering a wide range of topics, from beginner tutorials to advanced concepts.
    - **Format**: Public YouTube tutorial video ID with start time, end time, length, channel, and title
 
-### 2. **Quizzes**
+### 3. **Quizzes**
    - **Overview**: Interactive quizzes to test your knowledge and reinforce learning after each lesson.
    - **Format**: JSON-based data for integration with the website.
 
