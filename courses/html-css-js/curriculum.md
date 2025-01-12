@@ -1,0 +1,76 @@
+### HTML/CSS/JS Curriculum
+
+- [x] Introduction to HTML/CSS/JS  
+- [ ] HTML Structure: doctype, html, head, and body  
+- [ ] HTML Elements: structure and syntax  
+- [ ] `<p>` elements  
+- [ ] `<h1>` to `<h6>` elements  
+- [ ] CSS Basics: selectors, text styles, and the box model  
+- [ ] Inline Text: `<span>`, `<strong>`, `<em>`  
+- [ ] Links: `<a>` and navigation basics  
+- [ ] Buttons: `<button>` and basic styling  
+- [ ] Button Styles: padding, background color, border radius, etc.  
+- [ ] `hover` and `active` pseudo-classes  
+- [ ] `<img>` element  
+- [ ] Image Styles: width, height, image alignment  
+- [ ] `<div>` introduction  
+- [ ] Flexbox Basics: aligning and distributing content  
+- [ ] Nested Flexbox Layouts  
+- [ ] Lists: `<ol>` and `<ul>`  
+- [ ] List Styles: bullets, numbers, and indentation  
+- [ ] Tables: `<table>`, `<tr>`, `<th>`, `<td>`  
+- [ ] Table Styles: borders, zebra striping, and hover effects  
+- [ ] Forms: `<form>`, `<input>`, `<textarea>`, `<select>`, and buttons  
+- [ ] Form Styling: spacing, borders, and focus states  
+- [ ] Form Validation  
+- [ ] `<datalist>`, `<fieldset>`, `<legend>`  
+- [ ] Custom Input Types: date, color, range  
+- [ ] CSS Box Model: margin, padding, border, and content  
+- [ ] Applying Box Model to Layout  
+- [ ] CSS Grid Basics: rows, columns, gaps  
+- [ ] Multi-column Layouts with CSS Grid  
+- [ ] Text Alignment with CSS: `text-align`, `line-height`, `text-transform`  
+- [ ] Background Styles: colors, gradients, `background-image`  
+- [ ] Navigation Menus: `<nav>`, `<ul>`  
+- [ ] Styling Navigation Menus with Flexbox  
+- [ ] Responsive Design with Media Queries  
+- [ ] Sticky and Fixed Headers  
+- [ ] Advanced Pseudo-classes: `:focus`, `:nth-child`  
+- [ ] Pseudo-elements: `::before`, `::after`  
+- [ ] Custom Fonts: adding and styling
+- [ ] CSS Variables: defining and using dynamic styles
+- [ ] CSS Transitions for smooth effects  
+- [ ] Animations: `@keyframes` and `animation`  
+- [ ] Dynamic Styling with JavaScript: adding/removing classes  
+- [ ] Layout with JavaScript: toggling dropdowns and modals  
+- [ ] Form Validation with JavaScript and styling error states  
+- [ ] Icons: adding and styling with Font Awesome  
+- [ ] Testing and Debugging with Chrome DevTools  
+- [ ] Semantic HTML: accessibility and SEO best practices  
+- [ ] Web Accessibility: ARIA roles and landmarks  
+- [ ] Custom Data Attributes: `data-*` usage  
+- [ ] Embedding with `<iframe>`  
+- [ ] Creating Progressive Web Apps (PWA)  
+- [ ] Optimizing Images with `<picture>` and `<source>`  
+- [ ] Advanced CSS Grid Techniques: auto-placement, grid-template-areas  
+- [ ] Responsive Typography: `clamp()`, viewport units  
+- [ ] Advanced CSS Filters and Blend Modes  
+- [ ] Parallax Scrolling Effects  
+- [ ] Custom Scrollbars  
+- [ ] CSS Shapes: wrapping text around shapes  
+- [ ] Multi-column Layouts: `column-count`, `column-gap`  
+- [ ] Advanced Positioning: stacking contexts and z-index  
+- [ ] CSS Clipping and Masking  
+- [ ] Advanced Media Queries: dark mode, reduced motion  
+- [ ] Intersection Observer for lazy loading  
+- [ ] Virtual Scrolling and Infinite Scrolling  
+- [ ] Drag-and-Drop API for interactive UIs  
+- [ ] Web Components and Custom Elements  
+- [ ] JavaScript for Accessibility: keyboard navigation  
+- [ ] Advanced Event Handling: delegation and bubbling  
+- [ ] Scroll-Based Animations  
+- [ ] Real-Time Updates with WebSockets or Server-Sent Events  
+- [ ] Building Custom Tooltips  
+- [ ] Dynamic Content Filtering with JavaScript  
+- [ ] Advanced Animations with the Web Animations API  
+- [ ] Service Workers for Offline Support  
