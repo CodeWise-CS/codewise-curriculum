@@ -1,0 +1,53 @@
+title: "[New Course] enter_course_name"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ➕ New Course Discussion
+        This discussion is for proposing a new course for the CodeWise curriculum. A moderator will review your request before you can create an issue.
+
+        **Follow these guidelines when submitting your proposal:**
+        - Use a clear and descriptive title: `[New Course] enter_course_name` (e.g., `[New Course] Web Security Basics`).
+        - Ensure the course is not already in development or proposed in another discussion.
+        - Provide an outline of the first 10 lessons for the course.
+
+  - type: input
+    id: course-name
+    attributes:
+      label: "Course Name"
+      description: "Provide the name of the new course."
+      placeholder: "Example: Web Security Basics"
+    validations:
+      required: true
+
+  - type: textarea
+    id: course-description
+    attributes:
+      label: "📖 Course Description"
+      description: "Describe what this course covers and why it is valuable."
+      placeholder: "Example: This course introduces web security fundamentals, covering topics such as authentication, encryption, and common vulnerabilities like XSS and SQL injection."
+    validations:
+      required: true
+
+  - type: textarea
+    id: lesson-outline
+    attributes:
+      label: "📋 Initial Lesson Outline (First 10 Lessons)"
+      description: "Provide an outline of at least the first 10 lessons in the course."
+      placeholder: |
+        1. Introduction to Web Security
+        2. Understanding Authentication and Authorization
+        3. Encryption Basics
+        ...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: "✅ Confirmation"
+      options:
+        - label: "I have checked that this course is not already in development or proposed."
+          required: true
+        - label: "I understand that this discussion must be approved before I can create an issue."
+          required: true
