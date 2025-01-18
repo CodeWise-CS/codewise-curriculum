@@ -62,6 +62,13 @@ Course lesson format (consisting of a lesson and exercise):
         "endSeconds": /* seconds at which the video should end (null if N/A) */
       },
       ... /* other video options. 1st video in array should be the "recommended" video */
+    ],
+    "exercises": [
+      {
+        "title": /* exercise title */,
+        "content": /* description of the exercises with examples. E.g., "Write a program that greets a user named John Doe with the message \"Hello, John Doe!\"\n\nThen, try greeting yourself by changing the name." */
+      },
+      ... /* other exercise options */
     ]
   },
   {
