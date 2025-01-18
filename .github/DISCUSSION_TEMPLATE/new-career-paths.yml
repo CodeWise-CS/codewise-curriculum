@@ -1,0 +1,55 @@
+title: "[New Career Path] enter_career_path_name"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ➕ New Career Path Discussion
+        This discussion is for proposing a new career path for the CodeWise curriculum. A moderator will review your request before you can create an issue.
+
+        **Follow these guidelines when submitting your proposal:**
+        - Use a clear and descriptive title: `[New Career Path] enter_career_path_name` (e.g., `[New Career Path] Frontend Developer`).
+        - Ensure the course is not already in development or proposed in another discussion.
+        - Provide an initial outline of the courses included in this career path.
+
+  - type: input
+    id: career-path-name
+    attributes:
+      label: "Career Path Name"
+      description: "Provide the name of the new career path."
+      placeholder: "Example: Frontend Developer"
+    validations:
+      required: true
+
+  - type: textarea
+    id: career-path-description
+    attributes:
+      label: "📖 Career Path Description"
+      description: "Describe what this career path covers and why it is valuable."
+      placeholder: "Example: This career path prepares you for becoming a frontend engineer by covering frameworks, languages, UI design, etc."
+    validations:
+      required: true
+
+  - type: textarea
+    id: career-path-outline
+    attributes:
+      label: "📋 Initial Career Path Outline"
+      description: "Provide an outline of the courses included in this career path. Check the courses that already exist."
+      placeholder: |
+        - [ ] JavaScript
+        - [x] HTML/CSS/JS
+        - [ ] React
+        - [ ] UI Design Principles
+        - [ ] Web Security
+        ...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: "✅ Confirmation"
+      options:
+        - label: "I have checked that this career path is not already in development or proposed."
+          required: true
+        - label: "I understand that this discussion must be approved before I can create an issue."
+          required: true
