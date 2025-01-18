@@ -111,7 +111,7 @@ Career path format:
 
 ## 🤝 **Contributing**
 
-We welcome contributions from the community! If you have ideas for new materials, improvements, or fixes, check out our contribution guidelines.
+We welcome contributions from the community! If you have ideas for new materials, improvements, or fixes, check out our [contribution guidelines](/CONTRIBUTING.md).
 
 ## 📧 **Contact**
 
