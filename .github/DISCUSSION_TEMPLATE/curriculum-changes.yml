@@ -1,5 +1,3 @@
-name: "Curriculum Change Discussion"
-description: "Propose and discuss changes to an existing curriculum before creating an issue."
 title: "[Course Name] [Brief Description of Change]"
 body:
   - type: markdown
