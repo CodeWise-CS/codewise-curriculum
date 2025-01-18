@@ -1,0 +1,42 @@
+name: "Curriculum Change Discussion"
+description: "Propose and discuss changes to an existing curriculum before creating an issue."
+title: "[Course Name] [Brief Description of Change]"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ✏️ Curriculum Change Discussion
+        This discussion is for proposing changes to an existing curriculum. A moderator will review your request and provide feedback before you can create an issue.
+
+        **Follow these guidelines when submitting your proposal:**
+        - Use a clear and descriptive title: `[Course Name] [Brief Description]` (e.g., `[Python] Reorder function and class lessons`).
+        - Provide a detailed explanation of the requested changes.
+        - Explain why these changes are necessary and how they improve the curriculum.
+
+  - type: textarea
+    id: change-description
+    attributes:
+      label: "📝 Describe the requested changes"
+      description: "Clearly explain what modifications should be made (e.g., reordering lessons, adding/removing topics, improving clarity)."
+      placeholder: "Example: The current lesson order introduces functions before covering variables, which may confuse beginners. I propose moving the functions lesson after the variables and loops lessons."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: "💡 Why are these changes necessary?"
+      description: "Describe the reasoning behind these changes and how they improve the learning experience."
+      placeholder: "Example: Functions depend on variables and loops, so introducing them earlier ensures students understand foundational concepts first."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: "✅ Confirmation"
+      options:
+        - label: "I have checked that this change is not already discussed in an open issue or PR."
+          required: true
+        - label: "I understand that this discussion must be approved before I can create an issue."
+          required: true
