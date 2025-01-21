@@ -29,13 +29,13 @@ This is kept **free** due to the open-source nature of our curriculum. Each topi
 
 ## 🚀 **Getting Started**
 
-1. **Clone the Repository**  
+1. **Fork the repository**
+2. **Clone the repository**  
    ```bash
-   git clone https://github.com/username/codewise-curriculum.git
+   git clone https://github.com/YOUR-USERNAME/codewise-curriculum.git
    cd codewise-curriculum
    ```
-
-2. **Explore the Files**
+3. **Explore the files**
 Navigate through the folders to find relevant materials:
 
 1. `courses/`
