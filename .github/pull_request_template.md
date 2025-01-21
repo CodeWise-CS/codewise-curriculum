@@ -6,7 +6,7 @@ Thank you for contributing to the curriculum! Please ensure your PR meets the fo
 - [ ] I have checked for typos, formatting issues, and broken links.
 - [ ] I have tested any code in questions (if applicable).
 - [ ] I have followed the contribution guidelines.
-- [ ] I have linked the related issue and the approved Discord post (if applicable).
+- [ ] I have linked the related issue and the approved Discussion post (if applicable).
 
 ---
 
@@ -38,11 +38,11 @@ Please link the issue(s) this PR is linked to
 
 ---
 
-## Discord Approval
+## Discussion Approval
 
-If this PR is related to a new course or career path, link the approved Discord post here:
+If this PR is related to a new course, career path, or curriculum change, link the approved Discussion post here:
 
-[Approved Discord Post](LINK_HERE)
+[Approved Discussion Post](LINK_HERE)
 
 ---
 
