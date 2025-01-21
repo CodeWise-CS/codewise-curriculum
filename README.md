@@ -2,13 +2,13 @@
 
 Welcome to the **CodeWise** curriculum repository! This repository hosts the learning materials, including videos, quizzes, courses, and career path data, designed to help users learn coding and advance their careers in technology.
 
-## 🎯 **About CodeWise**
+## **About CodeWise**
 
 CodeWise is a platform dedicated to empowering learners with accessible and comprehensive coding education. Whether you're a beginner starting from scratch or a professional looking to upskill, CodeWise offers content tailored to your learning goals.
 
 This is kept **free** due to the open-source nature of our curriculum. Each topic in a course consists of various tutorial options, code compilation, and quizzes.
 
-## 📚 **Contents**
+## **Curriculum Contents**
 
 ### 1. **Courses**
    - **Overview**: Structured courses, each consisting of multiple modules with videos, exercises, and quizzes.
@@ -124,7 +124,8 @@ We welcome contributions from the community! If you have ideas for new materials
 
 For questions or support, reach out to: iacopo.schianchi@gmail.com
 
-## 🌟 **License**
+## **License**
+
 This project is licensed under the MIT License. Feel free to use and adapt the materials as needed.
 
-Happy learning, and welcome to CodeWise! 🎉
+Welcome to CodeWise!
