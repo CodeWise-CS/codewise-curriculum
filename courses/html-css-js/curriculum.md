@@ -1,8 +1,8 @@
 ### HTML/CSS/JS Curriculum
 
-- [x] Introduction to HTML/CSS/JS  
-- [ ] HTML Structure: doctype, html, head, and body  
-- [ ] HTML Elements: structure and syntax  
+- [x] Introduction to HTML/CSS/JS
+- [x] HTML Structure
+- [ ] HTML Elements
 - [ ] `<p>` elements  
 - [ ] `<h1>` to `<h6>` elements  
 - [ ] CSS Basics: selectors, text styles, and the box model  
