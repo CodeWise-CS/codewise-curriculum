@@ -1,0 +1,118 @@
+[
+  {
+    "lessonName": "HTML Structure",
+    "type": "lesson",
+    "videos": [
+      {
+        "name": "HTML tutorial for complete beginners: The document structure",
+        "channel": "Julio Codes",
+        "length": "3:24",
+        "id": "JufrE735Mqw",
+        "startSeconds": 295,
+        "endSeconds": null
+      },
+      {
+        "name": "HTML Document Structure",
+        "channel": "GoRails",
+        "length": "8:44",
+        "id": "pTshMoUECjo",
+        "startSeconds": 110,
+        "endSeconds": null
+      }
+    ],
+    "exercises": [
+      {
+        "title": "Set up a personal website",
+        "content": "You will setup a basic HTML document with the correct practices as the foundation for a personal portfolio website. Also set the website's title to your name. You won't see it in CodeWise's editor, but it would be present on a web page. Then, enter text to introduce yourself.",
+        "solution": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <title>John Doe</title>\n  </head>\n  <body>I'm John Doe, a frontend engineer with over 13 years of experience at big tech companies such as Google, Microsoft, and Meta. Outside of work, I enjoy walking my dog and playing video games.</body>\n</html>"
+      },
+      {
+        "title": "Quote site",
+        "content": "Setup a simple HTML document including one of your favorite quotes. Name the website after who said the quote (e.g., \"Nelson Mandela Quotes\")",
+        "solution": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <title>Nelson Mandela Quotes</title>\n  </head>\n  <body>\"Education is the most powerful weapon which you can use to change the world.\" - Nelson Mandela</body>\n</html>"
+      }
+    ]
+  },
+  {
+    "lessonName": "HTML Structure - Exercise",
+    "type": "exercise",
+    "questions": [
+      {
+        "type": "fill_in",
+        "question": "What does every well-formatted HTML file start with?",
+        "text": "<@><!DOCTYPE html><@>"
+      },
+      {
+        "type": "fill_in",
+        "question": "Which tag contains the non-visible contents of a webpage",
+        "text": "<<@>head<@>></<@>head<@>>"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Why is it important to specify the doctype at the start of an HTML file?",
+        "answers": [
+          {
+            "answer": "It tells the browser where to stop parsing the HTML code",
+            "correct": false
+          },
+          {
+            "answer": "It containst the styles of the webpage",
+            "correct": false
+          },
+          {
+            "answer": "It tells browsers the version of the markup language in which the document is written",
+            "correct": true
+          },
+          {
+            "answer": "It contains the website's visible content",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the correct order of tags from start to end of an HTML file?",
+        "answers": [
+          {
+            "answer": "<head>, <body>, <html>",
+            "correct": false
+          },
+          {
+            "answer": "<html>, <body>, <head>",
+            "correct": false
+          },
+          {
+            "answer": "<body>, <html>, <head>",
+            "correct": false
+          },
+          {
+            "answer": "<html>, <head>, <body>",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does the body tag contain?",
+        "answers": [
+          {
+            "answer": "The visible elements that are displayed in a website",
+            "correct": true
+          },
+          {
+            "answer": "The styles for the elements in the webpage",
+            "correct": false
+          },
+          {
+            "answer": "The HTML file's logic",
+            "correct": false
+          },
+          {
+            "answer": "Metadata about the website",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+]
