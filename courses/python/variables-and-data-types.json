@@ -29,7 +29,7 @@
       {
         "title": "Form data",
         "content": "In this exercise, you will create variables that represent the personal information of a user. You must create variables to store first name, last name, age, weight, and whether they want to receive the newsletter.\n\nYou must use the correct data type and comment what type you used after defining the variable (using \"#\" to create the comment). For example:\nvariable = 1 # int\n\nFinally, you will print the a sentence such as \"John Jackson is 43 years old, weighs 63.2 kg, and it is True that he wants to receive the newsletter.\"\n\nRemember to use the values you set in the variables rather than hard-coding them in the print statement.",
-        "solution": "first_name = \"John\" # String\nlast_name = \"Jackson\" # String\nage = 43 # Integer\nweight_kg = 63.2 # Float\nreceives_newsletter = True # Boolean\n\nprint(f\"{first_name} {last_name} is {str(age)} years old and weighs {str(weight)} kg. It is {receives_newsletter} that he wants to receive the newsletter\")"
+        "solution": "first_name = \"John\" # String\nlast_name = \"Jackson\" # String\nage = 43 # Integer\nweight_kg = 63.2 # Float\nreceives_newsletter = True # Boolean\n\nprint(f\"{first_name} {last_name} is {age} years old and weighs {weight} kg. It is {receives_newsletter} that he wants to receive the newsletter\")"
       }
     ]
   },
@@ -40,7 +40,7 @@
       {
         "type": "fill_in",
         "question": "Complete the code to print the user's name and age.",
-        "text": "name = \"Billy Bob\"\nage = 25\nprint(f\"<@>{name}<@> is <@>{str(age)}<@> years old.\")"
+        "text": "name = \"Billy Bob\"\nage = 25\nprint(f\"<@>{name}<@> is <@>{age}<@> years old.\")"
       },
       {
         "type": "multiple_choice",
