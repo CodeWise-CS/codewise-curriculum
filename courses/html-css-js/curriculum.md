@@ -2,7 +2,7 @@
 
 - [x] Introduction to HTML/CSS/JS
 - [x] HTML Structure
-- [ ] HTML Elements
+- [x] HTML Elements and Attributes
 - [ ] `<p>` elements  
 - [ ] `<h1>` to `<h6>` elements  
 - [ ] CSS Basics: selectors, text styles, and the box model  
