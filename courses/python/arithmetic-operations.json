@@ -1,0 +1,153 @@
+[
+  {
+    "lessonName": "Arithmetic Operators",
+    "type": "lesson",
+    "videos": [
+      {
+        "name": "Python Arithmetic Operators Explained Simply (Full Tutorial)",
+        "channel": "PromoAmbitions",
+        "length": "14:55",
+        "id": "jtu9hIjzQc4",
+        "startSeconds": null,
+        "endSeconds": 822
+      },
+      {
+        "name": "Arithmetic Operators in Python",
+        "channel": "Neso Academy",
+        "length": "12:05",
+        "id": "GEMZpw7ug-k",
+        "startSeconds": null,
+        "endSeconds": null
+      },
+      {
+        "name": "Python Math Operations",
+        "channel": "Timothy Unkert",
+        "length": "5:40",
+        "id": "yCCrUs-lD3c",
+        "startSeconds": null,
+        "endSeconds": null
+      }
+    ],
+    "exercises": [
+      {
+        "title": "Basic arithmetic",
+        "content": "Ask the user for two numbers. Then, print the result of addition, subtraction, multiplication, and division of those two numbers.",
+        "solution": "a = float(input(\"Enter first number: \"))\nb = float(input(\"Enter second number: \"))\nprint(f\"Addition: {a + b}\")\nprint(f\"Subtraction: {a - b}\")\nprint(f\"Multiplication: {a * b}\")\nprint(f\"Division: {a / b}\")"
+      },
+      {
+        "title": "Format time",
+        "content": "Ask the user how many total seconds a video is. Then, print how many full minutes and remaining seconds it has. Format it as \"2 minutes and 35 seconds\".",
+        "solution": "total_seconds = int(input(\"Enter total seconds: \"))\nminutes = total_seconds // 60\nseconds = total_seconds % 60\nprint(f\"{minutes} minutes and {seconds} seconds\")"
+      },
+      {
+        "title": "Area of a circle",
+        "content": "Ask the user for a circle's radius, then calculate the area. Use the formula: area = π × r². Use 3.14 for π.",
+        "solution": "radius = float(input(\"Enter radius: \"))\narea = 3.14 * (radius ** 2)\nprint(f\"Area: {area}\")"
+      },
+      {
+        "title": "Left-to-right calculations",
+        "content": "Ask the user for integers a, b, c, and d. Then, output the result of the operation a + b ** c / d such that the order of operations is ignored (a + b first).\n\nFor example, it should output 16 rather than 8 when a = 3, b = 4, c = 2, d = 4",
+        "solution": "a = int(input(\"Enter a: \"))\nb = int(input(\"Enter b: \"))\nc = int(input(\"Enter c: \"))\nd = int(input(\"Enter d: \"))\n\nprint((a + b) ** c / d)"
+      }
+    ]
+  },
+  {
+    "lessonName": "Arithmetic Operators - Exercise",
+    "type": "exercise",
+    "questions": [
+      {
+        "type": "fill_in",
+        "question": "Complete the code to divide a group evenly",
+        "text": "total = <@>int<@>(input(\"Total people: \"))\ngroups = <@>int<@>(input(\"Groups: \"))\npeople_per_group = total <@>//<@> groups\nremaining_people = total <@>%<@> groups\nprint(f\"{<@>remaining_people<@>} groups of {<@>people_per_group<@> + 1} and {groups <@>-<@> remaining_people} groups of {<@>people_per_group<@>}\")"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which operator performs floor division?",
+        "answers": [
+          {
+            "answer": "//",
+            "correct": true
+          },
+          {
+            "answer": "%",
+            "correct": false
+          },
+          {
+            "answer": "/",
+            "correct": false
+          },
+          {
+            "answer": "**",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the result of \"2 + 3 * 4 ** 2\" in Python?",
+        "answers": [
+          {
+            "answer": "50",
+            "correct": true
+          },
+          {
+            "answer": "80",
+            "correct": false
+          },
+          {
+            "answer": "20",
+            "correct": false
+          },
+          {
+            "answer": "25",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following will return the remainder when 17 is divided by 5?",
+        "answers": [
+          {
+            "answer": "17 % 5",
+            "correct": true
+          },
+          {
+            "answer": "17 // 5",
+            "correct": false
+          },
+          {
+            "answer": "17 / 5",
+            "correct": false
+          },
+          {
+            "answer": "5 % 17",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which expression correctly forces this calculation to start with addition: \"4 + 2 * 3\"?",
+        "answers": [
+          {
+            "answer": "(4 + 2) * 3",
+            "correct": true
+          },
+          {
+            "answer": "4 + 2 * 3",
+            "correct": false
+          },
+          {
+            "answer": "4 + (2 * 3)",
+            "correct": false
+          },
+          {
+            "answer": "4 * 2 + 3",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+]
