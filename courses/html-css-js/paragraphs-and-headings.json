@@ -1,6 +1,6 @@
 [
   {
-    "lessonName": "Paragraphs and Headers",
+    "lessonName": "Paragraphs and Headings",
     "type": "lesson",
     "videos": [
       {
@@ -22,8 +22,8 @@
     "exercises": [
       {
         "title": "HTML Text Article",
-        "content": "In this exercise, you will create a short article about what you have learned about paragraph and header elements. You should have a title of \"HTML Text Elements\" and sections describing paragraphs and headers in HTML. You can use <hr> to create a horizontal line between sections.",
-        "solution": "<h1>HTML Text Elements</h1>\n<h2>Paragraphs</h2>\n<p>In HTML, you can put text on your webpage by using the paragraph element (p). Within the opening and closing tags, you can put the content of the paragraph. However, note that empty lines within your text will be ignored, so you must either use <br> to insert a new line or create another paragraph element.</p>\n<hr>\n<h2>Headers</h2>\n<p>If you want to insert titles, headings, or larger, more important text, you can use the HTML headers. There are 6 elements (h1-h6) that should be used based on the size and importance of the header. The h1 element is the largest and most prominent, while h6 is the smallest. New lines are also ignored in header elements.</p>"
+        "content": "In this exercise, you will create a short article about what you have learned about paragraph and header elements. You should have a title of \"HTML Text Elements\" and sections describing paragraphs and headings in HTML. You can use <hr> to create a horizontal line between sections.",
+        "solution": "<h1>HTML Text Elements</h1>\n<h2>Paragraphs</h2>\n<p>In HTML, you can put text on your webpage by using the paragraph element (p). Within the opening and closing tags, you can put the content of the paragraph. However, note that empty lines within your text will be ignored, so you must either use <br> to insert a new line or create another paragraph element.</p>\n<hr>\n<h2>Headings</h2>\n<p>If you want to insert titles, headings, or larger, more important text, you can use the HTML headings. There are 6 elements (h1-h6) that should be used based on the size and importance of the header. The h1 element is the largest and most prominent, while h6 is the smallest. New lines are also ignored in header elements.</p>"
       },
       {
         "title": "Employee directory",
@@ -33,7 +33,7 @@
     ]
   },
   {
-    "lessonName": "Paragraphs and Headers - Exercise",
+    "lessonName": "Paragraphs and Headings - Exercise",
     "type": "exercise",
     "questions": [
       {
@@ -48,7 +48,7 @@
       },
       {
         "type": "multiple_choice",
-        "question": "How many categories of headers are there in HTML?",
+        "question": "How many categories of headings are there in HTML?",
         "answers": [
           {
             "answer": "6",
