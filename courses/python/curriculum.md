@@ -2,13 +2,9 @@
 
 - [x] Introduction to Python
 - [x] Printing text
-- [ ] Variables
-- [ ] Primitive data types (integers, floats, strings, and booleans)
-- [ ] Receiving input
-- [ ] Type conversions
-- [ ] Strings and string methods
-- [ ] Formatted strings
-- [ ] Math operations
+- [x] Variables and Data Types
+- [x] Input and Type Casting
+- [x] Arithmetic Operations
 - [ ] If statements
 - [ ] Logical operators (and, or, not)
 - [ ] Comparison operators (<, <=, >, >=, ==)
