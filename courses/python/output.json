@@ -1,6 +1,6 @@
 [
   {
-    "lessonName": "Output With \"print\"",
+    "name": "Output With \"print\"",
     "type": "lesson",
     "videos": [
       {
@@ -8,7 +8,7 @@
         "id": "UsCQXe1OHZk",
         "channel": "sentdex",
         "length": "5:24",
-        "startSeconds": null,
+        "startSeconds": -1,
         "endSeconds": 324
       },
       {
@@ -17,22 +17,24 @@
         "length": "4:25",
         "id": "C32EzXbYY2g",
         "startSeconds": 108,
-        "endSeconds": null
+        "endSeconds": -1
       }
     ],
     "exercises": [
       {
         "title": "Greet John Doe",
-        "content": "Write a program that greets a user named John Doe with the message \"Hello, John Doe!\"\n\nThen, try greeting yourself by changing the name."
+        "content": "Write a program that greets a user named John Doe with the message \"Hello, John Doe!\"\n\nThen, try greeting yourself by changing the name.",
+        "solution": "print(\"Hello, John Doe!\")"
       },
       {
         "title": "Asterisk Triangle",
-        "content": "Print a triangle of * characters with a base of 5 like this one:\n\n    *\n  * * *\n* * * * *\n\n"
+        "content": "Print a triangle of * characters with a base of 5 like this one:\n\n    *\n  * * *\n* * * * *",
+        "solution": "print(\"    *\")\nprint(\"  * * *\")\nprint(\"* * * * *\")"
       }
     ]
   },
   {
-    "lessonName": "Output with \"print\" - Quiz",
+    "name": "Output with \"print\" - Exercise",
     "type": "exercise",
     "questions": [
       {
