@@ -1,6 +1,6 @@
 [
   {
-    "lessonName": "Arithmetic Operators",
+    "name": "Arithmetic Operators",
     "type": "lesson",
     "videos": [
       {
@@ -8,7 +8,7 @@
         "channel": "PromoAmbitions",
         "length": "14:55",
         "id": "jtu9hIjzQc4",
-        "startSeconds": null,
+        "startSeconds": -1,
         "endSeconds": 822
       },
       {
@@ -16,16 +16,16 @@
         "channel": "Neso Academy",
         "length": "12:05",
         "id": "GEMZpw7ug-k",
-        "startSeconds": null,
-        "endSeconds": null
+        "startSeconds": -1,
+        "endSeconds": -1
       },
       {
         "name": "Python Math Operations",
         "channel": "Timothy Unkert",
         "length": "5:40",
         "id": "yCCrUs-lD3c",
-        "startSeconds": null,
-        "endSeconds": null
+        "startSeconds": -1,
+        "endSeconds": -1
       }
     ],
     "exercises": [
@@ -52,7 +52,7 @@
     ]
   },
   {
-    "lessonName": "Arithmetic Operators - Exercise",
+    "name": "Arithmetic Operators - Exercise",
     "type": "exercise",
     "questions": [
       {
