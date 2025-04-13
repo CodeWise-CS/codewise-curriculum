@@ -1,0 +1,113 @@
+[
+  {
+    "lessonName": "Variables and Data Types",
+    "type": "lesson",
+    "videos": [
+      {
+        "name": "Python variables for beginners",
+        "channel": "Bro Code",
+        "length": "10:18",
+        "id": "LKFrQXaoSMQ",
+        "startSeconds": null,
+        "endSeconds": 618
+      },
+      {
+        "name": "Variables & Data Types in 10 Minutes [Python for Beginners]",
+        "channel": "Data with Dylan",
+        "length": "14:32",
+        "id": "abpivu3ujlQ",
+        "startSeconds": null,
+        "endSeconds": null
+      }
+    ],
+    "exercises": [
+      {
+        "title": "Combined names",
+        "content": "For this exercise, you will create two variables: first_name and last_name. Then, you will create a full_name variable that is a combination of the previous variables.\n\nLastly, greet the person using the value of full_name.",
+        "solution": "first_name = \"John\"\nlast_name = \"Doe\"\nfull_name = first_name + \" \" + last_name\n\n# Or\n\nfirst_name = \"John\"\nlast_name = \"Doe\"\nfull_name = f\"{first_name} {last_name}\"\n\nprint(f\"Welcome, {full_name}\")"
+      },
+      {
+        "title": "Form data",
+        "content": "In this exercise, you will create variables that represent the personal information of a user. You must create variables to store first name, last name, age, weight, and whether they want to receive the newsletter.\n\nYou must use the correct data type and comment what type you used after defining the variable (using \"#\" to create the comment). For example:\nvariable = 1 # int\n\nFinally, you will print the a sentence such as \"John Jackson is 43 years old, weighs 63.2 kg, and it is True that he wants to receive the newsletter.\"\n\nRemember to use the values you set in the variables rather than hard-coding them in the print statement.",
+        "solution": "first_name = \"John\" # String\nlast_name = \"Jackson\" # String\nage = 43 # Integer\nweight_kg = 63.2 # Float\nreceives_newsletter = True # Boolean\n\nprint(f\"{first_name} {last_name} is {str(age)} years old and weighs {str(weight)} kg. It is {receives_newsletter} that he wants to receive the newsletter\")"
+      }
+    ]
+  },
+  {
+    "lessonName": "Variables and Data Types - Exercise",
+    "type": "exercise",
+    "questions": [
+      {
+        "type": "fill_in",
+        "question": "Complete the code to print the user's name and age.",
+        "text": "name = \"Billy Bob\"\nage = 25\nprint(f\"<@>{name}<@> is <@>{str(age)}<@> years old.\")"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which variable should be a float?",
+        "answers": [
+          {
+            "answer": "price",
+            "correct": true
+          },
+          {
+            "answer": "age",
+            "correct": false
+          },
+          {
+            "answer": "name",
+            "correct": false
+          },
+          {
+            "answer": "is_student",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What data type is this?\n\na = \"False\"",
+        "answers": [
+          {
+            "answer": "String",
+            "correct": true
+          },
+          {
+            "answer": "Boolean",
+            "correct": false
+          },
+          {
+            "answer": "Integer",
+            "correct": false
+          },
+          {
+            "answer": "Float",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What data type is this?\n\nx = 10.0",
+        "answers": [
+          {
+            "answer": "Float",
+            "correct": true
+          },
+          {
+            "answer": "Integer",
+            "correct": false
+          },
+          {
+            "answer": "String",
+            "correct": false
+          },
+          {
+            "answer": "Boolean",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+]
