@@ -3,8 +3,7 @@
 - [x] Introduction to HTML/CSS/JS
 - [x] HTML Elements and Attributes
 - [x] HTML Structure
-- [ ] `<p>` elements  
-- [ ] `<h1>` to `<h6>` elements  
+- [x] Paragraphs and Headings
 - [ ] CSS Basics: selectors, text styles, and the box model  
 - [ ] Inline Text: `<span>`, `<strong>`, `<em>`  
 - [ ] Links: `<a>` and navigation basics  
