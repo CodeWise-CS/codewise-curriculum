@@ -1,6 +1,6 @@
 [
   {
-    "lessonName": "Introduction to Python",
+    "name": "Introduction to Python",
     "type": "lesson",
     "videos": [
       {
@@ -8,7 +8,7 @@
         "channel": "Fireship",
         "length": "0:50",
         "id": "x7X9w_GIm1s",
-        "startSeconds": null,
+        "startSeconds": -1,
         "endSeconds": 50
       },
       {
@@ -16,22 +16,22 @@
         "channel": "Programming with Mosh",
         "length": "4:06",
         "id": "Y8Tko2YC5hA",
-        "startSeconds": null,
-        "endSeconds": null
+        "startSeconds": -1,
+        "endSeconds": -1
       },
       {
         "name": "Python Tutorial for Beginners 1 - Introduction to Python (For Absolute Beginners)",
         "channel": "ProgrammingKnowledge",
         "length": "8:22",
         "id": "mpnBNGOSplA",
-        "startSeconds": null,
-        "endSeconds": null
+        "startSeconds": -1,
+        "endSeconds": -1
       }
     ],
     "exercises": []
   },
   {
-    "lessonName": "Introduction to Python - Quiz",
+    "name": "Introduction to Python - Quiz",
     "type": "exercise",
     "questions": [
       {
