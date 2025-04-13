@@ -1,6 +1,6 @@
 [
   {
-    "lessonName": "Variables and Data Types",
+    "name": "Variables and Data Types",
     "type": "lesson",
     "videos": [
       {
@@ -8,7 +8,7 @@
         "channel": "Bro Code",
         "length": "10:18",
         "id": "LKFrQXaoSMQ",
-        "startSeconds": null,
+        "startSeconds": -1,
         "endSeconds": 618
       },
       {
@@ -16,8 +16,8 @@
         "channel": "Data with Dylan",
         "length": "14:32",
         "id": "abpivu3ujlQ",
-        "startSeconds": null,
-        "endSeconds": null
+        "startSeconds": -1,
+        "endSeconds": -1
       }
     ],
     "exercises": [
@@ -34,7 +34,7 @@
     ]
   },
   {
-    "lessonName": "Variables and Data Types - Exercise",
+    "name": "Variables and Data Types - Exercise",
     "type": "exercise",
     "questions": [
       {
