@@ -1,7 +1,7 @@
 ### Python curriculum
 
 - [x] Introduction to Python
-- [x] Printing text
+- [x] Output
 - [x] Variables and Data Types
 - [x] Input and Type Casting
 - [x] Arithmetic Operations
