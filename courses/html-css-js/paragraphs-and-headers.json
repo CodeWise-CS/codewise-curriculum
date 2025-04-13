@@ -1,0 +1,117 @@
+[
+  {
+    "lessonName": "Paragraphs and Headers",
+    "type": "lesson",
+    "videos": [
+      {
+        "name": "#7 - Paragraphs and Headings - HTML Full Tutorial for Beginners",
+        "channel": "Dev Dreamer",
+        "length": "7:24",
+        "id": "GHmpcvYuMWs",
+        "startSeconds": null,
+        "endSeconds": null
+      },{
+        "name": "HTML Headings and Paragraphs",
+        "channel": "Timothy W Unkert",
+        "length": "6:07",
+        "id": "Cm2Zk6YJSsM",
+        "startSeconds": null,
+        "endSeconds": null
+      }
+    ],
+    "exercises": [
+      {
+        "title": "HTML Text Article",
+        "content": "In this exercise, you will create a short article about what you have learned about paragraph and header elements. You should have a title of \"HTML Text Elements\" and sections describing paragraphs and headers in HTML. You can use <hr> to create a horizontal line between sections.",
+        "solution": "<h1>HTML Text Elements</h1>\n<h2>Paragraphs</h2>\n<p>In HTML, you can put text on your webpage by using the paragraph element (p). Within the opening and closing tags, you can put the content of the paragraph. However, note that empty lines within your text will be ignored, so you must either use <br> to insert a new line or create another paragraph element.</p>\n<hr>\n<h2>Headers</h2>\n<p>If you want to insert titles, headings, or larger, more important text, you can use the HTML headers. There are 6 elements (h1-h6) that should be used based on the size and importance of the header. The h1 element is the largest and most prominent, while h6 is the smallest. New lines are also ignored in header elements.</p>"
+      },
+      {
+        "title": "Employee directory",
+        "content": "In this exercise, you will create a directory of employees at a company. You must include a title describing the directory (e.g., CodeWise Staff Directory). Then, you will create smaller headings with the names of each employee. Enter their role as a paragraph beneath their name. Separate each employee with a horizontal line (<hr>).",
+        "solution": "<h1>CodeWise Staff Directory</h1>\n<h4>Iacopo Schianchi</h4>\n<p>CodeWise founder</p>\n<hr>\n<h4>John Smith</h4>\n<p>Frontend developer</p>\n<hr>\n<h4>Jill Smith</h4>\n<p>Fullstack developer</p>\n<hr>\n<h4>Jack Smith</h4>\n<p>Curriculum creator</p>"
+      }
+    ]
+  },
+  {
+    "lessonName": "Paragraphs and Headers - Exercise",
+    "type": "exercise",
+    "questions": [
+      {
+        "type": "fill_in",
+        "question": "Complete the paragraph element",
+        "text": "<@><p><@>What a great exercise!<@></p><@>"
+      },
+      {
+        "type": "fill_in",
+        "question": "Create the largest heading possible containing the text \"Hello, world\"",
+        "text": "<@><h1>Hello, world</h1><@>"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How many categories of headers are there in HTML?",
+        "answers": [
+          {
+            "answer": "6",
+            "correct": true
+          },
+          {
+            "answer": "2",
+            "correct": false
+          },
+          {
+            "answer": "1",
+            "correct": false
+          },
+          {
+            "answer": "4",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How can you add new lines in your text?",
+        "answers": [
+          {
+            "answer": "Create a new paragraph element or insert <br>",
+            "correct": true
+          },
+          {
+            "answer": "Insert an empty line in the text or add \"\\n\"",
+            "correct": false
+          },
+          {
+            "answer": "There is no way to do that in HTML",
+            "correct": false
+          },
+          {
+            "answer": "Either option works",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the smallest heading in HTML?",
+        "answers": [
+          {
+            "answer": "h6",
+            "correct": true
+          },
+          {
+            "answer": "h1",
+            "correct": false
+          },
+          {
+            "answer": "h2",
+            "correct": false
+          },
+          {
+            "answer": "h7",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+]
