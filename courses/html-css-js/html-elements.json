@@ -1,0 +1,133 @@
+[
+  {
+    "lessonName": "HTML Elements and Attributes",
+    "type": "lesson",
+    "videos": [
+      {
+        "name": "HTML Tags, Attributes and Elements",
+        "channel": "John Morris",
+        "length": "7:39",
+        "id": "vNOyRZIkC7o",
+        "startSeconds": null,
+        "endSeconds": null
+      },
+      {
+        "name": "#4 - Elements & Attributes - HTML Full Tutorial for Beginners",
+        "channel": "Dev Dreamer",
+        "length": "5:04",
+        "id": "Dm_38sQiaI4",
+        "startSeconds": null,
+        "endSeconds": null
+      }
+    ],
+    "exercises": [
+      {
+        "title": "Nesting practice",
+        "content": "Nest the following HTML elements (from outside to inside):\n\ndiv > div > p\n\nWithin the content of the p, include your name and a greeting message",
+        "solution": "<div>\n  <div>\n    <p>Hello, I'm John Doe!</p>\n  </div>\n</div>"
+      },
+      {
+        "title": "Name and date",
+        "content": "Create a \"div\" element with 2 \"p\" elements with it. Inside the first p, write your name. In the second, enter your birth date.\n\nTo the name element, add the \"title\" attribute, which displays a message when it is hovered.",
+        "solution": "<div>\n  <p title=\"Hello, Mr. Doe!\">John Doe</p>\n  <p>January 1, 1970</p>\n</div>"
+      }
+    ]
+  },
+  {
+    "lessonName": "HTML Elements and Attributes - Exercise",
+    "type": "exercise",
+    "questions": [
+      {
+        "type": "fill_in",
+        "question": "How would you write an empty \"p\" element?",
+        "text": "<@><p></p><@>"
+      },
+      {
+        "type": "fill_in",
+        "question": "Complete the HTML element",
+        "text": "<@><div><@></div>"
+      },
+      {
+        "type": "fill_in",
+        "question": "Complete the HTML element",
+        "text": "<div><@></div><@>"
+      },
+      {
+        "type": "fill_in",
+        "question": "Complete the HTML element",
+        "text": "<div><@></<@>div>"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which is the correct syntax for a closing tag?",
+        "answers": [
+          {
+            "answer": "</html>",
+            "correct": true
+          },
+          {
+            "answer": "<html>",
+            "correct": false
+          },
+          {
+            "answer": "<html/>",
+            "correct": false
+          },
+          {
+            "answer": "All options work",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How would you put a p within a div?",
+        "answers": [
+          {
+            "answer": "<div><p></p></div>",
+            "correct": true
+          },
+          {
+            "answer": "<div><p><p><div>",
+            "correct": false
+          },
+          {
+            "answer": "<div><p><div>",
+            "correct": false
+          },
+          {
+            "answer": "<div></p></div>",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which is the valid syntax for an attribute?",
+        "answers": [
+          {
+            "answer": "<p title=\"Hello\">Hello, world</p>",
+            "correct": true
+          },
+          {
+            "answer": "<p title=Hello>Hello, world</p>",
+            "correct": false
+          },
+          {
+            "answer": "<title=Hello p>Hello, world</p>",
+            "correct": false
+          },
+          {
+            "answer": "<title=\"Hello\" p>Hello, world</p>",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "fill_in",
+        "question": "Set the href attribute of this anchor element to \"https://www.google.com\"",
+        "text": "<a <@>href=\"https://www.google.com\"<@>>Go to Google</a>"
+      }
+    ]
+  }
+]
