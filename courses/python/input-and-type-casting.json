@@ -1,0 +1,131 @@
+[
+  {
+    "lessonName": "Input and Type Casting",
+    "type": "lesson",
+    "videos": [
+      {
+        "name": "How to Take User Input in Python? #3",
+        "channel": "Programiz",
+        "length": "8:42",
+        "id": "DRBybZ6hsY0",
+        "startSeconds": null,
+        "endSeconds": null
+      },
+      {
+        "name": "Python user input",
+        "channel": "Bro Code",
+        "length": "7:18",
+        "id": "DB9Cq6TSTuQ",
+        "startSeconds": null,
+        "endSeconds": null
+      },
+      {
+        "name": "Python for Beginners - 005 | User-input, Data-type Casting and Conversions",
+        "channel": "SUNNY BHAVEEN CHANDRA",
+        "length": "14:09",
+        "id": "kbI6HX4tn2o",
+        "startSeconds": null,
+        "endSeconds": null
+      }
+    ],
+    "exercises": [
+      {
+        "title": "Greet user",
+        "content": "In this exercise, you will receive the user's name as input and output a greeting like \"Welcome, John Smith\" You must store the first and last names in different variables",
+        "solution": "first_name = input(\"What's your first name? \")\nlast_name = input(\"What's your last name? \")\nprint(f\"Welcome, {first_name} {last_name}\")"
+      },
+      {
+        "title": "User description",
+        "content": "For this exercise, you will get data from a new user and then print a description. You must get the user's\n\n1. First name\n2. Last name\n3. Birthdate\n4. Email\n\nThen, output it in the format John Smith (john.smith@gmail.com) was born on January 1, 1970.",
+        "solution": "first_name = input(\"First name: \")\nlast_name = input(\"Last name: \")\nbirthdate = input(\"Birthdate: \")\nemail = input(\"Email: \")\nprint(f\"{first_name} {last_name} ({email}) was born on {birthdate}\")"
+      },
+      {
+        "title": "Cast types",
+        "content": "You are making a system where employees can enter new items. You must store various details about the product in the appropriate data type. You need to get the\n\n1. Item name\n2. Item price\n3. Item category (food, electronics, clothing, etc.)\n4. Numerical ID\n\nWhen the user has finished entering all the details, output a message like \"<enter_item_name> has been added\"",
+        "solution": "name = input(\"Item name: \")\nprice = float(input(\"Price: \"))\ncategory = input(\"Category: \")\nid = int(input(\"Numerical ID: \"))\n\nprint(f\"{name} has been added\")"
+      }
+    ]
+  },
+  {
+    "lessonName": "Input and Type Casting - Exercise",
+    "type": "exercise",
+    "questions": [
+      {
+        "type": "fill_in",
+        "question": "Complete the code to store the user's full name. The prompts for receiving the inputs should be \"First name: \" and \"Last name: \"",
+        "text": "<@>full_name<@> = <@>input<@>(\"<@>First name: <@>\") + \" \" + <@>input<@>(\"<@>Last name: <@>\")\nprint(full_name)"
+      },
+      {
+        "type": "fill_in",
+        "question": "Make sure the type of this variable is appropriate for what is stored.",
+        "text": "weight = <@>float<@>(input(\"What is its weight? \"))"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What data type is returned by the input function?",
+        "answers": [
+          {
+            "answer": "String",
+            "correct": true
+          },
+          {
+            "answer": "Boolean",
+            "correct": false
+          },
+          {
+            "answer": "Integer",
+            "correct": false
+          },
+          {
+            "answer": "Float",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How do you cast a string to an integer?",
+        "answers": [
+          {
+            "answer": "int(text)",
+            "correct": true
+          },
+          {
+            "answer": "integer(text)",
+            "correct": false
+          },
+          {
+            "answer": "number(text)",
+            "correct": false
+          },
+          {
+            "answer": "text.integer()",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which code is incorrect?",
+        "answers": [
+          {
+            "answer": "print(4 + input(\"> \"))",
+            "correct": true
+          },
+          {
+            "answer": "print(input())",
+            "correct": false
+          },
+          {
+            "answer": "print(\"Hello, \" + input('What's your name? '))",
+            "correct": false
+          },
+          {
+            "answer": "None of the above",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+]
