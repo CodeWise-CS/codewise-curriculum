@@ -1,6 +1,6 @@
 [
   {
-    "lessonName": "Input and Type Casting",
+    "name": "Input and Type Casting",
     "type": "lesson",
     "videos": [
       {
@@ -8,24 +8,24 @@
         "channel": "Programiz",
         "length": "8:42",
         "id": "DRBybZ6hsY0",
-        "startSeconds": null,
-        "endSeconds": null
+        "startSeconds": -1,
+        "endSeconds": -1
       },
       {
         "name": "Python user input",
         "channel": "Bro Code",
         "length": "7:18",
         "id": "DB9Cq6TSTuQ",
-        "startSeconds": null,
-        "endSeconds": null
+        "startSeconds": -1,
+        "endSeconds": -1
       },
       {
         "name": "Python for Beginners - 005 | User-input, Data-type Casting and Conversions",
         "channel": "SUNNY BHAVEEN CHANDRA",
         "length": "14:09",
         "id": "kbI6HX4tn2o",
-        "startSeconds": null,
-        "endSeconds": null
+        "startSeconds": -1,
+        "endSeconds": -1
       }
     ],
     "exercises": [
@@ -47,7 +47,7 @@
     ]
   },
   {
-    "lessonName": "Input and Type Casting - Exercise",
+    "name": "Input and Type Casting - Exercise",
     "type": "exercise",
     "questions": [
       {
