@@ -1,6 +1,6 @@
 [
   {
-    "lessonName": "Introduction to Java",
+    "name": "Introduction to Java",
     "type": "lesson",
     "videos": [
       {
@@ -8,7 +8,7 @@
         "channel": "Fireship",
         "length": "1:06",
         "id": "l9AzO1FMgM8",
-        "startSeconds": null,
+        "startSeconds": -1,
         "endSeconds": 66
       },
       {
@@ -17,12 +17,12 @@
         "length": "4:12",
         "id": "bm0OyhwFDuY",
         "startSeconds": 44,
-        "endSeconds": null
+        "endSeconds": -1
       }
     ]
   },
   {
-    "lessonName": "Introduction to Java - Quiz",
+    "name": "Introduction to Java - Exercise",
     "type": "exercise",
     "questions": [
       {
