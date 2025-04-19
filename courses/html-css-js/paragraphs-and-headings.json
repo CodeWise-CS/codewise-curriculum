@@ -1,6 +1,6 @@
 [
   {
-    "lessonName": "Paragraphs and Headings",
+    "name": "Paragraphs and Headings",
     "type": "lesson",
     "videos": [
       {
@@ -8,15 +8,15 @@
         "channel": "Dev Dreamer",
         "length": "7:24",
         "id": "GHmpcvYuMWs",
-        "startSeconds": null,
-        "endSeconds": null
+        "startSeconds": -1,
+        "endSeconds": -1
       },{
         "name": "HTML Headings and Paragraphs",
         "channel": "Timothy W Unkert",
         "length": "6:07",
         "id": "Cm2Zk6YJSsM",
-        "startSeconds": null,
-        "endSeconds": null
+        "startSeconds": -1,
+        "endSeconds": -1
       }
     ],
     "exercises": [
@@ -33,7 +33,7 @@
     ]
   },
   {
-    "lessonName": "Paragraphs and Headings - Exercise",
+    "name": "Paragraphs and Headings - Exercise",
     "type": "exercise",
     "questions": [
       {
