@@ -1,10 +1,10 @@
 ### Python curriculum
 
-- [x] [Introduction to Python](https://github.com/CodeWise-CS/codewise-curriculum/blob/main/courses/python/intro-to-python.json)
-- [x] [Output with "print"](https://github.com/CodeWise-CS/codewise-curriculum/blob/main/courses/python/output.json)
-- [x] [Variables and Data Types](https://github.com/CodeWise-CS/codewise-curriculum/blob/main/courses/python/variables-and-data-types.json)
-- [x] [Input and Type Casting](https://github.com/CodeWise-CS/codewise-curriculum/blob/main/courses/python/input-and-type-casting.json)
-- [x] [Arithmetic Operations](https://github.com/CodeWise-CS/codewise-curriculum/blob/main/courses/python/arithmetic-operations.json)
+- [x] [Introduction to Python](https://raw.githubusercontent.com/CodeWise-CS/codewise-curriculum/refs/heads/main/courses/python/intro-to-python.json)
+- [x] [Output with "print"](https://raw.githubusercontent.com/CodeWise-CS/codewise-curriculum/refs/heads/main/courses/python/output.json)
+- [x] [Variables and Data Types](https://raw.githubusercontent.com/CodeWise-CS/codewise-curriculum/refs/heads/main/courses/python/variables-and-data-types.json)
+- [x] [Input and Type Casting](https://raw.githubusercontent.com/CodeWise-CS/codewise-curriculum/refs/heads/main/courses/python/input-and-type-casting.json)
+- [x] [Arithmetic Operations](https://raw.githubusercontent.com/CodeWise-CS/codewise-curriculum/refs/heads/main/courses/python/arithmetic-operations.json)
 - [ ] If statements
 - [ ] Logical operators (and, or, not)
 - [ ] Comparison operators (<, <=, >, >=, ==)
