@@ -1,6 +1,6 @@
 [
   {
-    "lessonName": "HTML Structure",
+    "name": "HTML Structure",
     "type": "lesson",
     "videos": [
       {
@@ -9,7 +9,7 @@
         "length": "3:24",
         "id": "JufrE735Mqw",
         "startSeconds": 295,
-        "endSeconds": null
+        "endSeconds": -1
       },
       {
         "name": "HTML Document Structure",
@@ -17,7 +17,7 @@
         "length": "8:44",
         "id": "pTshMoUECjo",
         "startSeconds": 110,
-        "endSeconds": null
+        "endSeconds": -1
       }
     ],
     "exercises": [
@@ -34,7 +34,7 @@
     ]
   },
   {
-    "lessonName": "HTML Structure - Exercise",
+    "name": "HTML Structure - Exercise",
     "type": "exercise",
     "questions": [
       {
