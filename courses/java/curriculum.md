@@ -1,7 +1,7 @@
 ### Java Curriculum
 
-- [x] Introduction to Java
-- [x] Output in Java
+- [x] [Introduction to Java](https://raw.githubusercontent.com/CodeWise-CS/codewise-curriculum/refs/heads/main/courses/java/intro-to-java.json)
+- [x] [Output](https://raw.githubusercontent.com/CodeWise-CS/codewise-curriculum/refs/heads/main/courses/java/output.json)
 - [ ] Structure of a Java program
 - [ ] Variables
 - [ ] Primitive types
