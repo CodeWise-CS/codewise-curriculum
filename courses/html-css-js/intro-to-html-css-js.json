@@ -1,6 +1,6 @@
 [
   {
-    "lessonName": "Introduction to HTML/CSS/JS",
+    "name": "Introduction to HTML/CSS/JS",
     "type": "lesson",
     "videos": [
       {
@@ -8,23 +8,23 @@
         "channel": "Danielle Thé",
         "length": "3:57",
         "id": "gT0Lh1eYk78",
-        "startSeconds": null,
-        "endSeconds": null
+        "startSeconds": -1,
+        "endSeconds": -1
       },
       {
         "name": "What is HTML, CSS, and JavaScript?",
         "channel": "Tiff in Tech",
         "length": "6:50",
         "id": "DHGhFJZLKMs",
-        "startSeconds": null,
-        "endSeconds": null
+        "startSeconds": -1,
+        "endSeconds": -1
       },
       {
         "name": "HTML in 100 Seconds",
         "channel": "Fireship",
         "length": "1:07",
         "id": "ok-plXXHlWw",
-        "startSeconds": null,
+        "startSeconds": -1,
         "endSeconds": 67
       },
       {
@@ -32,7 +32,7 @@
         "channel": "Fireship",
         "length": "1:10",
         "id": "OEV8gMkCHXQ",
-        "startSeconds": null,
+        "startSeconds": -1,
         "endSeconds": 70
       },
       {
@@ -40,14 +40,14 @@
         "channel": "Fireship",
         "length": "56",
         "id": "DHjqpvDnNGE",
-        "startSeconds": null,
+        "startSeconds": -1,
         "endSeconds": 56
       },
     ],
     "exercises": []
   },
   {
-    "lessonName": "Introduction to HTML/CSS/JS - Quiz",
+    "name": "Introduction to HTML/CSS/JS - Exercise",
     "type": "exercise",
     "questions": [
       {
