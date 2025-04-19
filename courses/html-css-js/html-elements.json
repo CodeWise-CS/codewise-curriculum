@@ -1,6 +1,6 @@
 [
   {
-    "lessonName": "HTML Elements and Attributes",
+    "name": "HTML Elements and Attributes",
     "type": "lesson",
     "videos": [
       {
@@ -8,16 +8,16 @@
         "channel": "John Morris",
         "length": "7:39",
         "id": "vNOyRZIkC7o",
-        "startSeconds": null,
-        "endSeconds": null
+        "startSeconds": -1,
+        "endSeconds": -1
       },
       {
         "name": "#4 - Elements & Attributes - HTML Full Tutorial for Beginners",
         "channel": "Dev Dreamer",
         "length": "5:04",
         "id": "Dm_38sQiaI4",
-        "startSeconds": null,
-        "endSeconds": null
+        "startSeconds": -1,
+        "endSeconds": -1
       }
     ],
     "exercises": [
@@ -34,7 +34,7 @@
     ]
   },
   {
-    "lessonName": "HTML Elements and Attributes - Exercise",
+    "name": "HTML Elements and Attributes - Exercise",
     "type": "exercise",
     "questions": [
       {
