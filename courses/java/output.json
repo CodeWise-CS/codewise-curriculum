@@ -1,6 +1,6 @@
 [
   {
-    "lessonName": "Output in Java",
+    "name": "Output",
     "type": "lesson",
     "videos": [
       {
@@ -16,7 +16,7 @@
         "channel": "Gav Ridgeway",
         "length": "4:44",
         "id": "XbjcAEuwsI8",
-        "startSeconds": null,
+        "startSeconds": -1,
         "endSeconds": 284
       },
       {
@@ -24,23 +24,25 @@
         "channel": "Logic Lambda",
         "length": "4:37",
         "id": "XbjcAEuwsI8",
-        "startSeconds": null,
-        "endSeconds": null
+        "startSeconds": -1,
+        "endSeconds": -1
       }
     ],
     "exercises": [
       {
         "title": "Print, not println",
-        "content": "Write a program that outputs the text \"I like print, not prinln.\" only using print statements for each word."
+        "content": "Write a program that outputs the text \"I like print, not prinln.\" only using print statements for each word.",
+        "solution": "System.out.print(\"I \");\nSystem.out.print(\"like \");\nSystem.out.print(\"print, \");\nSystem.out.print(\"not \");\nSystem.out.print(\"println \");"
       },
       {
-        "title": "Stick man",
-        "content": "Write a program that outputs a stick man as the one shown:\n\n O \n/|\\\n/ \\"
+        "title": "Stick figure",
+        "content": "Write a program that outputs a stick figure as the one shown (use \\\\ instead of \\):\n\n O \n/|\\\n/ \\",
+        "solution": "System.out.println(\" O\");\nSystem.out.println(\"/|\\\\\");\nSystem.out.println(\"/ \\\\\");"
       }
     ]
   },
   {
-    "lessonName": "Output in Java - Quiz",
+    "name": "Output - Exercise",
     "type": "exercise",
     "questions": [
       {
