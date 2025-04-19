@@ -1,12 +1,12 @@
 # CodeWise Curriculum
 
-Welcome to the **CodeWise** curriculum repository! This repository hosts the learning materials, including videos, quizzes, courses, and career path data, designed to help users learn coding and advance their careers in technology.
+Welcome to the **CodeWise** curriculum repository! This repository hosts the learning materials, including videos, quizzes, courses, and career path data, designed to help users learn coding and advance their careers in computer science.
 
 ## **About CodeWise**
 
-CodeWise is a platform dedicated to empowering learners with accessible and comprehensive coding education. Whether you're a beginner starting from scratch or a professional looking to upskill, CodeWise offers content tailored to your learning goals.
+CodeWise is a free platform dedicated to teaching various programming languages and computer science principles to absolute beginners and help them reach an advanced level in any topic.
 
-This is kept **free** due to the open-source nature of our curriculum. Each topic in a course consists of various tutorial options, code compilation, and quizzes.
+This is kept **free** due to the open-source nature of our curriculum. Each topic in a course consists of various tutorial options, code compilation, exercises with solutions, and quizzes.
 
 ## **Curriculum Contents**
 
@@ -44,13 +44,18 @@ Navigate through the folders to find relevant materials:
 3. **Contribute to CodeWise**
 Create a new `.json` file in the appropriate directory and put all the necessary information.
 
-The planned curriculum is listed in the courses' `curriculum.md` file. It organizes the topics that will be covered and their order (lessons that have not been created may be listed here).
+The planned curriculum is listed in the courses' `curriculum.md` file. It organizes the topics that will be covered and their order (lessons that have not been created may be listed here). Once your lesson has been completed, check the lesson off the `curriculum.md` file and add a link to it's source. Follow this format:
+```md
+- [x] [capitalized_lesson_name](https://github.com/CodeWise-CS/codewise-curriculum/blob/main/courses/[course_name]/[lesson_file_name].json)
+For example:
+- [x] [Arithmetic Operations](https://github.com/CodeWise-CS/codewise-curriculum/blob/main/courses/python/arithmetic-operations.json)
+```
 
 Course lesson format (consisting of a lesson and exercise):
 ```js
 [
   {
-    "lessonName": /* lesson's name */,
+    "name": /* lesson's name */,
     "type": "lesson",
     "videos": [
       {
@@ -58,21 +63,22 @@ Course lesson format (consisting of a lesson and exercise):
         "channel": /* channel */,
         "length": /* video length formatted as MM:SS */,
         "id": /* YouTube video ID (e.g., "x7X9w_GIm1s" for https://www.youtube.com/watch?v=**x7X9w_GIm1s**) */,
-        "startSeconds": /* seconds at which the video should start (null if N/A) */,
-        "endSeconds": /* seconds at which the video should end (null if N/A) */
+        "startSeconds": /* seconds at which the video should start (-1 if N/A) */,
+        "endSeconds": /* seconds at which the video should end (-1 if N/A) */
       },
       ... /* other video options. 1st video in array should be the "recommended" video */
     ],
     "exercises": [
       {
         "title": /* exercise title */,
-        "content": /* description of the exercises with examples. E.g., "Write a program that greets a user named John Doe with the message \"Hello, John Doe!\"\n\nThen, try greeting yourself by changing the name." */
+        "content": /* description of the exercises with examples. E.g., "Write a program that greets a user named John Doe with the message \"Hello, John Doe!\"\n\nThen, try greeting yourself by changing the name." */,
+         "solution": /* string containing the exercise's solution code. E.g., "print(\"Hello, John Doe!\")" *.
       },
       ... /* other exercise options */
     ]
   },
   {
-    "lessonName": "[lesson's name] - Exercise",
+    "name": "[lesson's name] - Exercise",
     "type": "exercise",
     "questions": [
       {
@@ -116,6 +122,11 @@ Career path format:
 }
 ```
 
+## **Testing Lessons**
+It's important to test all lessons and changes to lessons before adding them to the curriculum. You can do this by forking the [website](https://github.com/CodeWise-CS/codewise-cs.github.io) repo and manually enter the lesson by replacing the highlighted code in [the LessonHandler.jsx](https://github.com/CodeWise-CS/codewise-cs.github.io/blob/2ed320913bf5452aeff76062d9fdbe48c53e5ac2/src/pages/Lesson/LessonHandler.jsx#L96) file with the object contianing your lesson (either the exercise or the lesson itself).
+
+For example: `const lesson = {...}`
+
 ## 🤝 **Contributing**
 
 We welcome contributions from the community! If you have ideas for new materials, improvements, or fixes, check out our [contribution guidelines](/CONTRIBUTING.md).
@@ -127,5 +138,3 @@ For questions or support, reach out to: iacopo.schianchi@gmail.com
 ## **License**
 
 This project is licensed under the MIT License. Feel free to use and adapt the materials as needed.
-
-Welcome to CodeWise!
