@@ -1,9 +1,9 @@
 ### HTML/CSS/JS Curriculum
 
-- [x] Introduction to HTML/CSS/JS
-- [x] HTML Elements and Attributes
-- [x] HTML Structure
-- [x] Paragraphs and Headings
+- [x] [Introduction to HTML/CSS/JS](https://raw.githubusercontent.com/CodeWise-CS/codewise-curriculum/refs/heads/main/courses/html-css-js/intro-to-html-css-js.json)
+- [x] [HTML Elements and Attributes](https://raw.githubusercontent.com/CodeWise-CS/codewise-curriculum/refs/heads/main/courses/html-css-js/html-elements.json)
+- [x] [HTML Structure](https://raw.githubusercontent.com/CodeWise-CS/codewise-curriculum/refs/heads/main/courses/html-css-js/html-structure.json)
+- [x] [Paragraphs and Headings](https://raw.githubusercontent.com/CodeWise-CS/codewise-curriculum/refs/heads/main/courses/html-css-js/paragraphs-and-headings.json)
 - [ ] CSS Basics: selectors, text styles, and the box model  
 - [ ] Inline Text: `<span>`, `<strong>`, `<em>`  
 - [ ] Links: `<a>` and navigation basics  
